@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>名古屋カフェ紹介</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">名古屋カフェ紹介</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">ホーム</a></li>
+                    <li><a href="#cafes">おすすめカフェ</a></li>
+                    <li><a href="#search">検索</a></li>
+                    <li><a href="#about">サービスについて</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
+                    <li><a href="#contact">SNS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>名古屋の素敵なカフェを見つけよう！</h2>
+            <p>おしゃれな空間、美味しいコーヒー、素敵なスイーツが待っています。</p>
+            <a href="#cafes" class="btn">カフェを見る</a>
+        </section>
+
+        <section id="search" class="search">
+            <h2>カフェを検索</h2>
+            <form class="search-form">
+                <input type="text" name="keyword" placeholder="キーワードで検索" class="search-input">
+                <select name="area" class="search-select">
+                    <option value="">地域を選択</option>
+                    <option value="栄">栄</option>
+                    <option value="名古屋駅">名古屋駅</option>
+                    <option value="大須">大須</option>
+                </select>
+                <select name="purpose" class="search-select">
+                    <option value="">目的を選択</option>
+                    <option value="デート">デート</option>
+                    <option value="仕事">仕事</option>
+                    <option value="リラックス">リラックス</option>
+                </select>
+                <button type="submit" class="btn">検索する</button>
+            </form>
+        </section>
+
+        <section id="cafes" class="cafes">
+            <h2>おすすめのカフェ</h2>
+            <div class="cafe-list">
+                <article class="cafe">
+                    <img src="cafe1.jpg" alt="カフェ1">
+                    <h3>カフェ名1</h3>
+                    <p>エリア: 栄</p>
+                    <p>特徴: 静かな雰囲気で自家焙煎コーヒーが楽しめる。</p>
+                </article>
+                <article class="cafe">
+                    <img src="cafe2.jpg" alt="カフェ2">
+                    <h3>カフェ名2</h3>
+                    <p>エリア: 名古屋駅</p>
+                    <p>特徴: モダンなインテリアと多彩なスイーツが魅力。</p>
+                </article>
+                <article class="cafe">
+                    <img src="cafe3.jpg" alt="カフェ3">
+                    <h3>カフェ名3</h3>
+                    <p>エリア: 大須</p>
+                    <p>特徴: レトロな雰囲気で人気のパンケーキが絶品。</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>サービスについて</h2>
+            <p>「名古屋カフェ紹介」は、名古屋エリアの素敵なカフェを厳選してご紹介するサービスです。</p>
+            <p>地元で人気のカフェから隠れた名店まで、幅広くお届けします。</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 名古屋カフェ紹介. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
